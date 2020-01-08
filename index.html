@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canais</title>
+    <script src="db.js"></script>
+    <script src="crud.js"></script>
+    <link rel="stylesheet" href="styleCrud.css?v=1versao">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body id="corpo" onload="init()">
+    <h1 id="texto1">Menu De Preferências</h1></br>
+    <h2 id="texto2">Selecionados até o momento, clique em algum card e em excluir para excluí-lo, ao excluir não terá como voltar ao padrão:</h2>
+    <div id="selecionados-ate-o-momento">
+
+    </div>
+    
+    <section id="menu-crud">
+
+    </section>
+    <section id="resposta">
+
+    </section>
+    <section id="ferramentas-crud">
+        <div onclick="funcaoInserir()" class="ferramenta-box">
+            <button type="button"  class="botao verde">Inserir Perfil</button>
+        </div>
+        <div onclick="funcaoMostrarPerfis()" class="ferramenta-box">
+            <button type="button" class="botao azul ">Mostrar Pefis</button>
+        </div>
+        <div onclick="funcaoExcluir()" class="ferramenta-box">
+            <button type="button" class="botao vermelho">Excluir</button>
+        </div>
+    </section>
+    <section id="menu-de-perfis-texto">
+        <h1>Menu de Perfis</h1>
+    </section>
+    <section id="menu-de-perfis">
+
+    </section>
+    <script>
+        function init(){
+            funcaoDb();
+            criarMenu();
+        }    
+    </script>
+    
+</body>
+</html>

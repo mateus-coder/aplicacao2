@@ -1,0 +1,592 @@
+#menu-lateral{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr;
+    float: right;
+    position: fixed;
+    border-radius: 20px;
+    background-color: rgba(255, 153, 0, 0.726);
+    display: none;
+    transition-duration: 1s;
+}
+#menu-lateral > ul > li > img{
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+}
+#menu-lateral > ul > li{
+    list-style-type: none;
+    padding: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: 2px solid white;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+}
+#menu-lateral > ul > li:hover{
+    background-color: orange;
+    color: rgb(255, 255, 255);
+}
+#menu-lateral > ul > li:first-child:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+#menu-lateral > ul > li:first-child{
+    border-top: 4px solid white;
+}
+#menu-lateral > ul > li:last-child{
+    border-bottom: 4px solid white;
+}
+#menu-lateral > ul > li > i{
+    color: rgb(60, 255, 0);
+}
+#menu-lateral > ul > li > i:hover{
+    transform: rotate(40grad);
+    transition-duration: 2s;
+}
+#menu-lateral > ul > li > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+#menu-lateral > ul{
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    border: 1px solid green;
+    width: 100%;
+    height: 100%;
+}
+
+/*Menu Gaveta*/
+
+#gaveta{
+    display: grid;
+    text-align: center;
+    width: 40px;
+    height: 50px;
+    align-content: center;
+    font-size: 2em;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    transition-duration: 1.5s;
+    color: rgb(60, 255, 0);
+}
+
+/*imagem perfil*/
+#perfil{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    align-items: center;
+    width: 300px;
+    height: 350px;
+    border: 5px dashed orange;
+    border-radius: 10%;
+    background-color: rgba(255, 166, 0, 0.432);
+    padding: 40px;
+
+}
+#perfil > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+#perfil > div > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    font-weight: 900;
+}
+#perfil > div > h1 > i {
+    color: orange;
+}
+#perfil > div{
+    text-align: center;
+}
+
+/*dados perfil*/
+#dados-perfil{
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+#dados-perfil > div > button.botao{
+    width: 200px;
+    height: 50px;
+    border: 3px dashed white;
+    background-color: rgba(255, 251, 0, 0.253);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 1em;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+#dados-perfil > div > p{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 0, 0, 0.39);
+    padding: 50px;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    text-align: left;
+}
+#dados-perfil > div{
+    padding: 50px;
+    width: 500px;
+}
+#perfil-completo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 0 auto;
+    width: 100%;
+    transition-duration: 2s;
+}
+
+#perfil > button.botao{
+    width: 200px;
+    height: 50px;
+    border: 3px dashed white;
+    background-color: rgba(255, 251, 0, 0.253);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 1em;
+    color: white; 
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+
+#exibicao-itens{
+    transition-duration: 2s;
+}
+
+/*formulário*/
+#formulario-alteracao > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+#formulario-alteracao > form{
+    border: 5px solid black;
+    margin: 0 auto;
+    text-align: center;
+}
+#formulario-alteracao > form > button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin: 0 auto;
+    width: 500px;
+    height: 50px;
+    border: 3px solid orange;
+    background-color: rgba(255, 166, 0, 0.452);
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+}
+#formulario-alteracao > form > button > i{
+    color: orange;
+}
+#formulario-alteracao > form > input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin: 0 auto;
+    width: 300px;
+    height: 50px;
+    border: 2px dashed orange;
+    background-color: rgba(255, 166, 0, 0.103);
+    padding: 10px;
+}
+#formulario-alteracao > form > label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+#res-feed-sugestoes{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 1280px;
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#res-feed-sugestoes > div{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    align-items: center;
+    width: 200px;
+    height: 350px;
+    border: 5px dashed orange;
+    border-radius: 10%;
+    background-color: rgba(255, 166, 0, 0.432);
+    padding: 20px;
+}
+
+#res-feed-sugestoes > div > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+#res-feed-sugestoes > div > div > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1em;
+    color: black;
+    font-weight: 900;
+}
+#res-feed-sugestoes > div > div > h1 > i {
+    color: orange;
+}
+#res-feed-sugestoes > div > div {
+    text-align: center;
+}
+
+#res-feed-sugestoes > div > button.botao{
+    width: 200px;
+    height: 50px;
+    border: 3px dashed white;
+    background-color: rgba(255, 251, 0, 0.253);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 1em;
+    color: white; 
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.indice{
+    transition-duration: 1s;
+}
+
+
+#sugestoes-seguir{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1280px;
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#sugestoes-seguir > div{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    border: 5px dashed orange;
+    border-radius: 10%;
+    background-color: rgba(255, 166, 0, 0.432);
+    padding: 20px;
+    transition-duration: 1s;
+}
+
+#sugestoes-seguir > div > img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+#sugestoes-seguir > div > div > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1em;
+    color: black;
+    font-weight: 900;
+}
+#sugestoes-seguir > div > div > h1 > i {
+    color: orange;
+}
+#sugestoes-seguir > div > div {
+    text-align: center;
+}
+
+#sugestoes-seguir > div > button.botao{
+    width: 100px;
+    height: 35px;
+    border: 3px dashed white;
+    background-color: rgba(255, 251, 0, 0.253);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 1em;
+    color: white; 
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+
+#sugestoes-seguir > div.setas{
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-color: transparent;
+    max-width: 350px;
+    width: 100%;
+    align-items: center;
+}
+#sugestoes-seguir > div.setas > i.esquerda{
+    color: red;
+    text-align: right;
+}
+#sugestoes-seguir > div.setas > i.direita{
+    color: blue;
+    text-align: left;
+}
+#sugestoes-seguir > div.setas > i {
+    font-size: 5em;
+}
+
+/*chat*/
+#chat{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+}
+#chat > i {
+    font-size: 3em;
+    color: orange;
+}
+#chat-inteiro{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    float: right;
+    position: fixed;
+    border-radius: 20px;
+    background-color: rgba(255, 153, 0, 0.726);
+    overflow-y: scroll;
+    transition-duration: .7s;
+    margin-left: 78%;
+    width: 300px;
+    border: 5px solid rgba(255, 153, 0, 0.555);
+    display: none;
+    max-height: 400px;
+}
+#chat-inteiro > ul > li > div > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 0px;
+}
+#chat-inteiro > ul > li > div{
+    width: 45px;
+}
+#chat-inteiro > ul > li > div.quant-msgs{
+    width: 25px;
+    margin: 0 auto;
+    height: 25px;
+    border-radius: 50%;
+    background-color: green;
+}
+#chat-inteiro > ul > li > div.quant-msgs > p{
+    font-weight: 900;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+#chat-inteiro > ul > li{
+    list-style-type: none;
+    padding: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    text-align: right;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    border: 2px solid white;
+    font-size: 1em;
+    height: 50px;
+    align-items: center;
+}
+#chat-inteiro > ul > li > div > p{
+    color: black;
+}
+#chat-inteiro > ul > li:hover{
+    background-color: orange;
+}
+
+#chat-inteiro > ul > li:last-child{
+    border-bottom: 4px solid white;
+}
+
+#chat-inteiro > ul{
+    padding: 0px;
+}
+#chat-inteiro > ul > li > div > i {
+    text-align: right;
+    font-size: 1em;
+    align-items: center;
+}
+
+#bate-papo{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    float: right;
+    overflow-y: scroll;
+    transition-duration: .7s;
+    width: 390px;
+    border-left: 5px solid rgb(255, 153, 0);
+    border-right: 5px solid rgb(255, 153, 0);
+    background-image: url("./economia2.png");
+    background-repeat: repeat;
+    background-size: 100%;
+    max-height: 400px;
+    height: 400px;
+}
+#bate-papo > ul > li{
+    list-style-type: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: grid;
+    font-size: 1em;
+    height: 100%;
+    background-color: transparent;
+}
+#bate-papo > ul > li > div {
+    width: 100%;
+    height: 100%;
+}
+#bate-papo > ul > li > div.enviada{
+    background-image: url("./balaomsgenviada.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: right;
+}
+#bate-papo > ul > li > div.recebida{
+    background-image: url("./balaomsg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+}
+#bate-papo > ul > li > div#chat-vazio {
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 20%;
+    color: white;
+}
+#bate-papo > ul > li > div#chat-vazio > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 900;
+}
+
+
+#bate-papo > ul{
+    padding: 0px;
+}
+
+#div-bate-papo > div{
+    background-color: transparent;
+    margin-bottom: -20px;
+    width: 400px;
+    max-height: 400px;
+}
+#div-bate-papo > div:first-child{
+    margin-bottom: 0px;
+    background-color: rgba(255, 166, 0, 0.308);
+}
+#div-bate-papo{
+    display: none;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+    max-height: 400px;
+    border-top: 5px dashed orange;
+    width: 400px;
+    margin-left: 60%;
+    position: fixed;
+    transition-duration: 1s;
+    
+}
+#div-bate-papo > div > div > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: black;
+}
+#div-bate-papo > div#informacoes-user {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+#div-bate-papo > div#informacoes-user > div > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-left: 30px;
+}
+#div-bate-papo > div#informacoes-user > div > i{
+    font-size: 1em;
+}
+#div-bate-papo > div:last-child{
+    margin-top: 40px
+}
+#campo-texto > input{
+    width: 70%;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid orange;
+    text-align: left;
+    font-weight: 900;
+    font-size: 1em;
+}
+#campo-texto > i{
+    font-size: 2em;
+}
+
+#campo-texto > button{
+    width: 101%;
+    height: 50px;
+    margin-top: 5px;
+    background-color: white;
+    border: 5px dashed orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 1em;
+    background-color: rgba(255, 166, 0, 0.212);
+}
+#emoji-div{
+    display: none;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    overflow: scroll;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    grid-gap: 15px;
+    background-color: rgba(0, 0, 255, 0.452);
+}
+#emoji-div > div {
+    width: 35px;
+    height: 35px;
+
+}
+#emoji-div > div > p{
+    font-size: 2em;
+}

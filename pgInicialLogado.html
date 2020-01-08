@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estiloPgInicial.css">
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+    <script src="pgInicialLogado.js"></script>
+    <script src="funcoesPerfil.js"></script>
+    <title>PaginaInicialUserLogado</title>
+</head>
+<body onload="init()">
+    <div id="gaveta">
+        <i onclick="funcaoAbrirMenu();" class="fas fa-hiking"></i>
+    </div>
+    <nav id="menu-lateral">
+        <ul>
+            <li onclick="funcaoAbrirPerfil()"><img id="foto-perfil" src="futebol1.png">
+                <h1 id="nome-perfil">nome</h1>
+            </li>
+            <li onclick="funcaoGerarFeed();">Feed <i class="fas fa-hiking"></i></li>
+            <li>LifeShop <i class="fas fa-hiking"></i></li>
+            <li onclick="funcaoSair();">Sair <i class="fas fa-hiking"></i></li>
+        </ul>
+    </nav>
+    <div id="chat">
+        <i onclick="funcaoAbrirChat();" class="fas fa-hiking"></i>
+    </div>
+    <nav id="chat-inteiro">
+        <ul>
+            <li onclick="funcaoGerarFeed();">Feed <i class="fas fa-hiking"></i></li>
+            <li>LifeShop <i class="fas fa-hiking"></i></li>
+            <li onclick="funcaoSair();">Sair <i class="fas fa-hiking"></i></li>
+            <li onclick="funcaoGerarFeed();">Feed <i class="fas fa-hiking"></i></li>
+            <li>LifeShop <i class="fas fa-hiking"></i></li>
+            <li onclick="funcaoSair();">Sair <i class="fas fa-hiking"></i></li>
+            <li onclick="funcaoGerarFeed();">Feed <i class="fas fa-hiking"></i></li>
+            <li>LifeShop <i class="fas fa-hiking"></i></li>
+            <li onclick="funcaoSair();">Sair <i class="fas fa-hiking"></i></li>
+            <li onclick="funcaoGerarFeed();">Feed <i class="fas fa-hiking"></i></li>
+            <li>LifeShop <i class="fas fa-hiking"></i></li>
+            <li onclick="funcaoSair();">Sair <i class="fas fa-hiking"></i></li>
+            <li onclick="funcaoGerarFeed();">Feed <i class="fas fa-hiking"></i></li>
+            <li>LifeShop <i class="fas fa-hiking"></i></li>
+            <li onclick="funcaoSair();">Sair <i class="fas fa-hiking"></i></li>
+        </ul>
+    </nav>
+    <div id="div-bate-papo">
+        <div id="informacoes-user">
+            <div>
+                <img src="futebol1.png" alt='foto-perfil'>
+            </div>
+            <div>
+                <p>nome</p>
+            </div>
+            <div>
+                <i style="  color: greenyellow;" class="fas fa-hiking"></i>
+            </div>
+        </div>
+        <div>
+            <nav id="bate-papo"></nav>
+        </div>
+        <div id="emoji-div">
+            
+        </div>
+        <div id="campo-texto">
+            
+        </div>
+        
+    </div>
+    <div id="exibicao-itens"></div>
+    <section id="res-feed-sugestoes"></section>
+</body>
+</html>

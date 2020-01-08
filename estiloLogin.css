@@ -1,0 +1,42 @@
+body{
+    width: 100%;
+    padding: 0px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+h1{
+    text-align:  center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+#formulario-cadastro{
+    text-align: center;
+    margin: 0 auto;
+    transition-duration: 2s;
+}
+#formulario-cadastro > input{
+    display: block;
+    margin: 0 auto;
+}
+
+#formulario-login > input{
+    display: block;
+    margin: 0 auto;
+    height: 25px;
+    width: 50%;
+} 
+
+#formulario-login{
+    text-align: center;
+    margin: 0 auto;
+    transition-duration: 2s;
+    align-items: center;
+}
+button{
+    margin: 0 auto;
+}
+a {
+    margin: 0 auto;
+}

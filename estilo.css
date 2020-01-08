@@ -1,0 +1,589 @@
+
+div#body{
+    width: 101%;
+    padding: 0%;
+    background-color:rgba(220, 220, 220, 0.637);
+}
+body{
+    width: 100%;
+    padding: 0%;
+    overflow-x: hidden;
+    background-color: rgba(255, 255, 255, 0.425);
+}
+/*Medias*/
+
+/*menu*/
+
+div.menu{
+    width: 100%;
+    height: 5%;
+    margin-left: 0%;
+    background-color: blue;
+    margin-top: -1.3333%;
+    padding-top: 1%;
+}
+ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+    margin-right: 7%;
+    transition: 1s;
+}
+nav ul li img{
+    transition: 1s;
+}
+nav ul li:first-child{
+    
+    margin-right: 9%;
+}
+nav ul li img:hover{
+    transform: scale(1.2000);
+}
+nav ul li:hover{
+    padding-bottom: 1%;
+}
+
+/*notícias principais*/
+.notprincipal div{
+    width: 46%;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.425);
+    margin-left: 2%;
+    overflow: hidden;
+}
+.notprincipal div img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+}
+.notprincipal:hover img{
+    transform: scale(1.05555);
+}
+.notprincipal p{
+    font-family: 'Lobster', cursive;
+    margin-top: 10%;
+    font-size: 200%;
+    color: rgb(0, 0, 0);
+}
+.notprincipal h1{
+    font-family: 'Lobster', cursive;
+    margin-top: -150%;
+    margin-bottom: 140%;
+    font-size: 400%;
+    color: rgba(16, 16, 172, 0.747);
+}
+.notprincipalesp h1{
+    color: rgba(35, 124, 42, 0.795);
+}
+.notprincipalcarros h1{
+    color: rgba(255, 166, 0, 0.795);
+}
+.notprincipaleco h1{
+    color: rgba(255, 0, 0, 0.795);
+}
+.notprincipal{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-top: 1%;
+    width: 100%;
+}
+/*simbolo dos tópicos*/
+.selecao img{
+    display: inline;
+    margin-left: 40%;
+}
+.selecao h1{
+    display: inline;
+    font-family: 'Lobster', cursive;
+}
+.selecao{
+    box-shadow: 0px 10px 10px blue;
+    margin-top: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+    background-color: 	rgba(255, 255, 255, 0.404);
+}
+.selecaoesp{
+    box-shadow: 0px 10px 10px greenyellow;
+}
+.selecaocarros{
+    box-shadow: 0px 10px 10px orange;
+}
+.selecaoeco{
+    box-shadow: 0px 10px 10px red;
+}
+/*notícias menores sómente texto*/
+.somentetxt{
+    width: 100%;
+}
+.somentetxt div{
+    width: 31%;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.527);
+    padding-left: 1%;
+    margin-bottom: 5%;
+}
+.somentetxt div:first-child{
+    margin-left: 1%;
+}
+.somentetxt h1{
+    font-family: 'Lobster', cursive;
+    font-size: 200%;
+    color: rgba(0, 0, 255, 0.664);
+}
+.somentetxtesp h1{
+    color: green;
+}
+.somentetxtcarros h1{
+    color: orange;
+}
+.somentetxteco h1{
+    color: red;
+}
+.somentetxt p{
+    font-family: 'Lobster', cursive;
+    font-size: 100%;
+    color: rgba(116, 114, 114, 0.623);
+}
+/*bloco da esquerda e bloco da direita */
+.esquerda span{
+    font-family: 'Lobster', cursive;
+    font-size: 220%;
+    color: rgba(16, 16, 172, 0.747);
+}
+.esquerdaesp span{
+    color: green;
+}
+.esquerdacarros span{
+    color: orange;
+}
+.esquerdaeco span{
+    color: red;
+}
+.esquerda p{
+    font-family: 'Lobster', cursive;
+    font-size: 120%;
+    margin-left: 10%;
+    color: rgba(116, 114, 114, 0.623);
+    
+}
+.esquerda div{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.61);
+    padding-top: 5%;
+    padding-right: 50%;
+    padding-left: 0%;
+    margin-top: 0%;
+}
+.esquerda{
+    background-color: rgba(236, 236, 236, 0.555);
+    width: 45%;
+    margin-left: 1%;
+    display: inline-block;
+}
+/*mecher aqui na version de celular */
+.esquerda iframe{
+    width: 195%;
+    padding-left: 2%;
+}
+.leiamais h1{
+    font-family: 'Lobster', cursive;
+    font-size: 150%;
+    padding-left: 10%;
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 26, 255, 0.637);
+}
+.leiamaisesp h1{
+    background-color: rgba(7, 216, 7, 0.815);
+}
+.leiamaiscarros h1{
+    background-color: rgba(255, 166, 0, 0.815);
+}
+.leiamaiseco h1{
+    background-color: rgba(255, 0, 0, 0.815);
+}
+div.leiamais{
+    display: block;
+    padding-bottom: 0%;
+    width: 50%;
+    padding-left: 0%;
+    background-color: rgba(255, 255, 255, 0.61);
+}
+
+/*bloco da direita*/
+.direita div{
+    width: 100%;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.527);
+    padding-left: 1%;
+    padding-bottom: 0%;
+    border-radius: 0%;
+    margin-bottom: 2%;
+}
+.direita div:first-child{
+    margin-left: 0%;
+}
+.direita p{
+    font-family: 'Lobster', cursive;
+    font-size: 200%;
+    color: rgba(0, 0, 255, 0.664);
+}
+.direitaesp p{
+    color: green;
+}
+.direitacarros p{
+    color: orange;
+}
+.direitaeco p{
+    color: red;
+}
+.direita span{
+    font-family: 'Lobster', cursive;
+    font-size: 100%;
+    color: rgba(116, 114, 114, 0.623);
+}
+.direita{
+    width: 50%;
+    float: right;
+    display: block;
+    margin-right: 1%;
+    
+}
+
+.direita section{
+    width: 100%;
+    background-color: rgba(35, 58, 192, 0.527);
+    padding-top: 1%;
+    padding-left: 1%;
+    margin-bottom: 1%;
+    margin-right: 5%;
+}
+.direitaesp section{
+    background-color: rgba(0, 128, 0, 0.527);
+}
+.direitacarros section{
+    background-color: rgba(255, 166, 0, 0.527);
+}
+.direitaeco section{
+    background-color: rgba(255, 0, 0, 0.527);
+}
+.direita section img{
+    width: 10%;
+    display: inline-block;
+}
+.direita section p{
+    display: inline-block;
+    font-family: 'Lobster', cursive;
+    font-size: 150%;
+    color: rgb(255, 255, 255);
+}
+.direita h1{
+    font-family: 'Lobster', cursive;
+    font-size: 140%;
+    color: rgb(0, 0, 0);
+}
+/*formatações do treco da notícia principal redonda*/
+.not_redonda{
+    width: 45%;
+    margin-left: 1%;
+    background-color: rgba(236, 236, 236, 0.555);
+}
+
+/*para celular colocar sem border-radius*/
+.not_redonda p{
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 60%;
+    padding-top: 60%;
+    padding-right: 3%;
+    padding-left: 3%;
+    font-family: 'Lobster', cursive;
+    text-align: justify;
+    font-size: 120%;
+    color: rgba(116, 114, 114, 0.623);
+    margin-top: -9%;
+    margin-bottom: -9%;
+}
+.not_redonda div{
+    width: 60%;
+    margin-left: 20.7777%;
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.not_redonda h1{
+    font-family: 'Lobster', cursive;
+    background-color: blue;
+    font-size: 150%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.not_redondaesp h1{
+    background-color: rgb(19, 231, 19);
+}
+.not_redondacarros h1{
+    background-color: rgba(255, 166, 19);
+}
+.not_redondaeco h1{
+    background-color: rgb(255, 0, 19);
+}
+/*texto com block*/
+.block div{
+    display: block;
+    margin-left: 23%;
+    padding-right: 5%;
+    width: 50%;
+}
+.block div:first-child{
+    margin-left: 23%;
+}
+.block h1{
+    font-size: 150%;
+}
+.blockesp h1{
+    color: green;
+}
+.blockcarros h1{
+    color: orange;
+}
+.blockeco h1{
+    color: red;
+}
+
+.imagem_separatoria{
+    width: 98%;
+    background-color: white;
+    margin-top: 2%;
+    margin-left: 5%;
+    border-bottom: 5px solid blue;
+}
+.imagem_separatoriaesp{
+    border-bottom: 5px solid rgb(19, 231, 19);
+}
+.imagem_separatoriacarros{
+    border-bottom: 5px solid orange;
+}
+.imagem_separatoriaeco{
+    border-bottom: 5px solid red;
+}
+.imagem_separatoria img{
+    width: 20%;
+    display: inline-block;
+}
+.imagem_separatoria img:first-child{
+    margin-left: 3%;
+}
+.texto_block{
+    width: 45%;
+    
+}
+.propaganda{
+    width: 25%;
+    border: 1px solid blue;
+}
+.propaganda img{
+    width: 100%;
+}
+/*formatação do rodapé*/
+footer{
+    width: 100%;
+    height: 20%;
+    background-color: rgba(0, 0, 255, 0.397);
+    margin-bottom: -1%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+footer img{
+    display: inline-block;
+    width: 10%;
+}
+footer div{
+    width: 10%;
+    display: inline-block;
+    background-color: rgba(0, 0, 255, 0.164);
+    padding: 1%;
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 120%;
+}
+
+footer img:first-child{
+    margin-left: 1%;
+}
+#map{
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-right: 1%;
+    display: inline-block;
+}
+
+/*menu fixo*/
+.menu_fixo ul{
+    list-style-type: none;
+    width: 30%;
+    position: absolute;
+    margin-left: -3%;
+    margin-top: 0%;
+    transition: .5s;
+    display: none;
+}
+#seta{
+    display: block;
+    margin-left: 0%;
+    opacity: 0.6;
+    margin-top: 12%;
+    position: fixed;
+}
+
+.menu_fixo ul:hover{
+    background-color: rgba(0, 0, 255, 0.274);
+}
+.menu_fixo ul li{
+    display: block;
+    margin-bottom: 5%;
+    transition: .8s;
+}
+.menu_fixo ul li:hover{
+    margin-left: 5%;
+    
+}
+
+#fixo{
+    position: fixed;
+    width: 100%;
+}
+
+.meio{
+    width: 100%;
+}
+@media (min-width: 0em){
+    .notprincipal div{
+        width: 97%;
+        display: block;
+    }
+    .menu nav ul li{
+        display: block;
+        width: 100%;
+    }
+    .menu nav ul li img{
+        width: 35%;
+    }
+    .menu nav ul {
+        margin-left: 37%;
+    }
+    .somentetxt div{
+        width: 50%;
+        margin-left: 25%;
+        display: block;
+    }
+    .somentetxt div:first-child{
+        margin-left: 25%;
+    }
+    .direita{
+        float: none;
+        width: 98%;
+        margin-left: 1%;
+    }
+    .esquerda{
+        width: 97%;
+        margin-left: 1.555%;
+    }
+    .not_redonda{
+        margin-left: 0%;
+        width: 100%;
+    }
+    .texto_block div{
+        width: 100%;
+        margin-left: 30%;
+    }
+    .texto_block div:first-child{
+        margin-left: 60%;
+    }
+    .block div:first-child{
+        margin-left: 30%;
+
+    }
+    #body{
+        margin-top: -3%;
+        margin-bottom: -3%;
+        
+    }     
+    body{
+        padding: -2%;
+        margin-left: 0%; 
+        margin-top: -3%;
+        margin-bottom: -3%;
+        background-color:rgba(220, 220, 220, 0.637);
+    }
+}
+@media (min-width: 55em){
+    .notprincipal div{
+        width: 46%;
+        display: inline-block;
+    }
+    .menu nav ul li{
+        display: inline;
+    }
+    .menu nav ul li img{
+        width: 10%;
+        margin-top: 2%;
+    }
+    .menu nav ul {
+        margin-left: 0%;
+    }
+    
+    .somentetxt div{
+        width: 20%;
+        margin-left: 1%;
+        display: inline-block;
+    }
+    .somentetxt div:first-child{
+        margin-left: 13%;
+    }
+    .block{
+        width: 100%;
+        display: inline-block;
+    }
+    .direita{
+        float: right;
+        width: 50%;
+        margin-left: 0%;
+    }
+    .esquerda{
+        width: 46%;
+    }
+
+    .not_redonda{
+        margin-left: 0%;
+        width: 47%;
+    }
+    .texto_block div{
+        width: 78%;
+        margin-left: 12%;
+    }
+    .texto_block div:first-child{
+        margin-left: 12%;
+    }
+    .texto_block div.imagem_separatoria {
+        width: 78%;
+        margin-left: 15%;
+    }
+    footer div{
+        font-size: 120%;
+    }  
+    body{
+        padding: 0%;
+        margin-left: 0%; 
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,187 @@
+#menu-crud{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 4px;
+    border: 4px dashed black;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    height: 125px;
+}
+#menu-crud > div > button.botao{
+    width: 100%;
+    height: 50px;
+    border: 3px dashed white;
+    background-color: rgba(255, 251, 0, 0.253);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;  
+}
+#menu-crud > div{
+    padding: 2%;
+    border-radius: 5%;
+}
+
+#menu-crud > div > button.laranja{
+    background-color: rgba(255, 145, 0, 0.801);
+}
+#menu-crud > div.laranjaEfeito{
+    background-color: rgba(255, 194, 80, 0.767);
+}
+
+
+#ferramentas-crud{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    max-width: 1200px;
+    grid-gap: 50px;
+    margin: 0 auto;
+}
+
+#ferramentas-crud > div > button.botao{
+    width: 100%;
+    height: 50px;
+    border: 3px dashed white;
+    background-color: rgba(255, 166, 0, 0.253);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;  
+}
+#ferramentas-crud > div > button.verde{
+    background-color: rgba(24, 133, 2, 0.719);
+}
+#ferramentas-crud > div > button.azul{
+    background-color: rgba(0, 0, 255, 0.63);
+}
+#ferramentas-crud > div > button.vermelho{
+    background-color: rgba(255, 0, 0, 0.589);
+}
+#ferramentas-crud > div.verdeEfeito{
+    background-color: rgba(166, 255, 31, 0.719);
+}
+#ferramentas-crud > div.azulEfeito{
+    background-color: rgba(79, 229, 255, 0.692);
+}
+#ferramentas-crud > div.vermelhoEfeito{
+    background-color: rgba(252, 81, 81, 0.692);
+}
+#ferramentas-crud > div{
+    padding: 2%;
+    border-radius: 5%;
+}
+
+#corpo{
+    background-color: rgba(226, 226, 226, 0.322);
+}
+h1{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+h2{
+    text-align: left;
+    font-family: 'Lobster', cursive;
+}
+
+#selecionados-ate-o-momento{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 4px;
+    border: 4px solid rgb(255, 0, 0);
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#selecionados-ate-o-momento > div{
+    padding: 2%;
+    border-radius: 5%;
+}
+
+#selecionados-ate-o-momento > div > button.botao{
+    width: 100%;
+    height: 50px;
+    border: 3px dashed white;
+    background-color: rgba(255, 251, 0, 0.253);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;  
+}
+#selecionados-ate-o-momento > div > button.laranja{
+    background-color: rgba(255, 145, 0, 0.801);
+}
+#selecionados-ate-o-momento > div.laranjaEfeito{
+    background-color: rgba(255, 194, 80, 0.767);
+}
+#resposta{
+    width: 100%;
+    background-color: rgba(172, 255, 47, 0.336);
+    padding: 2%;
+    display: none;
+    margin-bottom: 20px;
+}
+#resposta > h2{
+    color: green;
+    text-align: center;
+}
+
+#menu-de-perfis{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 2%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#menu-de-perfis > div{
+    border: 4px solid black;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 255, 255, 0.192);
+    border-radius: 5%;
+}
+
+#menu-de-perfis > div > button {
+    width: 100%;
+    height: 50px;
+    border: 3px dashed white;
+    background-color: rgba(255, 166, 0, 0.253);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;  
+}
+#menu-de-perfis > div > button.verde{
+    background-color: rgb(0, 117, 0);
+}
+#menu-de-perfis > div > button.vermelho{
+    background-color: rgba(201, 5, 5, 0.815);
+}
+#menu-de-perfis > div > h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: black;
+    font-size: 2em;
+    text-align: center;
+    padding: 1%;
+    border: 5px dashed blue;
+}
+#menu-de-perfis > div > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: rgba(0, 89, 255, 0.603);
+    font-size: 1em;
+    text-align: center;
+}
+#menu-de-perfis-texto{
+    display: none;
+}
+#menu-de-perfis-texto > h1{
+    font-size: 3em;
+    color: rgba(34, 34, 211, 0.692);
+}

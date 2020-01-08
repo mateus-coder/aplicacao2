@@ -1,0 +1,249 @@
+
+#body{
+    width: 100%;
+    padding: 0%;
+    margin-left: -0.7777%;
+    margin-top: -0.7777%;
+    border: 2px solid red;
+    background-color: 	rgba(220, 220, 220, 0.637);
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+    border: 2px solid greenyellow;
+    background-color: rgba(255, 255, 255, 0.425);
+}
+/*menu fixo*/
+.menu_fixo ul{
+    list-style-type: none;
+    width: 30%;
+    position: absolute;
+    margin-left: -3%;
+    margin-top: 0%;
+    transition: .5s;
+    display: none;
+}
+#seta{
+    display: block;
+    margin-left: 0%;
+    opacity: 0.6;
+    margin-top: 12%;
+    position: fixed;
+}
+
+.menu_fixo ul:hover{
+    background-color: rgba(0, 0, 255, 0.274);
+}
+.menu_fixo ul li{
+    display: block;
+    margin-bottom: 5%;
+    transition: .8s;
+}
+.menu_fixo ul li:hover{
+    margin-left: 5%;
+    
+}
+
+#fixo{
+    position: fixed;
+    width: 100%;
+}
+
+
+/*meio*/
+.meio{
+    display: inline;
+}
+.meio div{
+    width: 70%;
+    display: inline-block;
+    margin-right: 2%;
+    margin-left: 2%;
+    background-color: white;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.meio div img{
+    margin-left: 0%;
+    margin-top: 5%;
+}
+.meio div h1{
+    margin-left: 22%;
+    font-family: 'Lobster', cursive;
+    font-size: 200%;
+}
+.meio div p{
+    font-family: 'Lobster', cursive;
+    font-size: 120%;
+    color: rgba(179, 179, 179, 0.74);
+    text-align: justify;
+}
+.meio div h2{
+    font-family: 'Lobster', cursive;
+    font-size: 150%;
+    color: blue;
+    text-align: justify;
+}
+
+/*direira*/
+.direita{
+    float: right;
+    width: 24%;
+}
+.direita div{
+    background-color: white;
+    padding-left: 2%;
+    margin-right: 0%;
+}
+.direita div h1{
+    font-family: 'Lobster', cursive;
+    font-size: 180%;
+    color: rgba(0, 0, 255, 0.705);
+}
+.direita div p{
+    font-family: 'Lobster', cursive;
+    font-size: 120%;
+    color: rgba(51, 51, 51, 0.623);
+}
+
+/*título*/
+.title{
+    width: 100%;
+}
+.title img{
+    margin-left: 44%;
+    opacity: .6;
+}
+.title h1{
+    font-family: 'Lobster', cursive;
+    font-size: 300%;
+    text-align: center;
+    padding-left: 23%;
+    padding-right: 23%;
+    color: rgba(255, 0, 0, 0.521);
+}
+@media (min-width: 0em){
+    .menu nav ul li{
+        display: block;
+        width: 100%;
+    }
+    .menu nav ul li img{
+        width: 35%;
+    }
+    .menu nav ul {
+        margin-left: 37%;
+    }
+    div.menu {
+        background-color: rgba(0, 0, 255, 0.541);
+    }
+    .direita{
+        float: none;
+        display: block;
+        width: 100%;
+    }
+}
+@media (min-width: 55em){
+    .menu nav ul li{
+        display: inline;
+    }
+    .menu nav ul li img{
+        width: 10%;
+    }
+    .menu nav ul {
+        margin-left: 0%;
+    }
+    .menu {
+        background-color: rgba(0, 0, 255, 0.541);
+    }
+    .direita{
+        float: right;
+        width: 24%;
+    }
+}
+
+/*menu*/
+
+.menu{
+    width: 100%;
+    height: 5%;
+    margin-left: 0%;
+    background-color: blue;
+    margin-top: -1.3333%;
+    padding-top: 1%;
+}
+ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+    margin-right: 7%;
+    transition: 1s;
+}
+nav ul li img{
+    transition: 1s;
+}
+nav ul li:first-child{
+    
+    margin-right: 9%;
+}
+nav ul li img:hover{
+    transform: scale(1.2000);
+}
+nav ul li:hover{
+    padding-bottom: 1%;
+}
+/* footer*/
+footer{
+    width: 100%;
+    height: 20%;
+    background-color: rgba(0, 0, 255, 0.397);
+    margin-bottom: -1%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+footer img{
+    display: inline-block;
+    width: 10%;
+}
+footer div{
+    width: 10%;
+    display: inline-block;
+    background-color: rgba(0, 0, 255, 0.164);
+    padding: 1%;
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 120%;
+}
+
+footer img:first-child{
+    margin-left: 1%;
+}
+#map{
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-right: 1%;
+    display: inline-block;
+}
+
+/*botão link para site fonte da notícia*/
+
+.link p{
+    font-family: 'Lobster', cursive;
+    font-size: 200%;
+    color: rgba(17, 1, 243, 0.87);
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.link {
+    background-color: rgba(255, 0, 0, 0.774);
+    border-radius: 10%;
+    width: 71%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    padding: 0.5000%;
+}
