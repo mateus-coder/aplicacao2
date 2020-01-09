@@ -1,14 +1,25 @@
-body{
+body, html{
     width: 100%;
     padding: 0px;
-    margin: 0 auto;
+    margin: 0px;
     border: 1px solid red;
+    height: 100%;
 }
 h1{
     text-align:  center;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
+}
+#form-submit-image{
+    text-align: center;
+    margin: 0 auto;
+    transition-duration: 2s;
+    display: none;
+}
+#form-submit-image > input{
+    display: block;
+    margin: 0 auto;
 }
 
 #formulario-cadastro{
@@ -39,4 +50,14 @@ button{
 }
 a {
     margin: 0 auto;
+}
+
+#exibir-image{
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 10px black;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }

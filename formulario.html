@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--botar jquery dps para otimizar o código-->
     <script src="db.js"></script>
-    <script src="formulario.js"></script>
+    
     <link rel="stylesheet" href="estiloLogin.css">
     <title>Login</title>
 </head>
@@ -22,14 +22,32 @@
         <input id="senha" type="text" placeholder="Digite uma senha ">
         <label for="repita_senha">Digite sua senha novamente</label>
         <input id="repita_senha" type="text" placeholder="Digite sua senha novamente ">
-        <input type="submit" onclick="funcaocadastrarUserLocal();" value="Cadastrar">
+        <input type="button" onclick="funcaocadastrarUserLocal();" value="Cadastrar">
     </div>
-    
+    <div id="form-submit-image">
+            <h1>Foto de perfil</h1>
+            <form id="form-submit" name="form-submit" action="" enctype="multipart/form-data" method="post">
+                
+                <label for="file">Carregue sua foto</label>
+                <input id="file" type="file" name="file" required>
+
+                <h1>Escreva algo sobre você</h1>
+
+                <label for="perfilUser">Escreva um pouco sobre você</label>
+                <input id="perfilUser" type="text" placeholder="Escreva um pouco sobre você : ">
+
+                <button type="submit" name="submit">enviar</button>
+            </form>
+    </div>
+    <div id="exibir-image">
+        
+    </div>
     
     <script>
         function inicial(){
             funcaoDb();
         }
     </script>
+    <script src="formulario.js"></script>
 </body>
 </html>
